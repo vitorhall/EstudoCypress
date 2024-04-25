@@ -1,0 +1,24 @@
+{
+  "name": "aula00-tests-frontend-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start -w --server .",
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "v20.12.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  },
+  "dependencies": {
+    "cypress": "^13.7.2"
+  }
+}
